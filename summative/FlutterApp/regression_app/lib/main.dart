@@ -35,9 +35,11 @@ class PredictionPage extends StatefulWidget {
 }
 
 class _PredictionPageState extends State<PredictionPage> {
+  static const String apiBaseUrl = "https://diabetes-glucose-api.onrender.com/";
+     
   final _formKey = GlobalKey<FormState>();
 
-  // Controllers for all 7 input fields
+  // Controllers for input fields
   final _bmiController = TextEditingController();
   final _ageController = TextEditingController();
   final _bpController = TextEditingController();
