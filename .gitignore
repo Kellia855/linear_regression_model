@@ -1,0 +1,24 @@
+﻿# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# API runtime-generated data (not source)
+summative/API/data_store.csv
+
+# Flutter
+summative/FlutterApp/.dart_tool/
+summative/FlutterApp/build/
+summative/FlutterApp/android/.gradle/
+summative/FlutterApp/ios/Pods/
+summative/FlutterApp/ios/.symlinks/
+summative/FlutterApp/.flutter-plugins
+summative/FlutterApp/.flutter-plugins-dependencies
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
