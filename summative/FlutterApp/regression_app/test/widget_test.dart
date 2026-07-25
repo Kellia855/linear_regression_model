@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:regression_app/lib/main.dart';
 
-import 'package:regression_app/main.dart';
 
 void main() {
   testWidgets('Diabetes Predictor App smoke test', (WidgetTester tester) async {
