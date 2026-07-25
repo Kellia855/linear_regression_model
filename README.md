@@ -21,18 +21,19 @@ existing diagnosis status).
 linear_regression_model/
 ├── summative/
 │   ├── linear_regression/
-│   │   ├── multivariate.ipynb        # Task 1: data cleaning, EDA, model training
-│   │   ├── best_glucose_model.pkl    # trained model bundle (model + scaler + features)
-│   │   └── Healthcare-Diabetes.csv   # dataset (Kaggle)
+│   │   ├── multivariate.ipynb        
+│   │   ├── best_glucose_model.pkl    
+│   │   └── Healthcare-Diabetes.csv   
 │   ├── API/
-│   │   ├── prediction.py             # Task 2: FastAPI app (/predict, /retrain, /health)
+│   │   ├── prediction.py   
+        ├── requirements.txt
 │   │   ├── best_glucose_model.pkl
 │   │   └── Healthcare-Diabetes.csv
-│   └── FlutterApp/
-│       ├── lib/main.dart             # Task 3: single-page Flutter app
-│       └── pubspec.yaml
-├── pyproject.toml                    # Python deps, managed with uv
-├── uv.lock
+│   ├── FlutterApp/
+│   │   ├── lib/main.dart             
+│   │   └── pubspec.yaml
+│   ├── pyproject.toml                
+│   └── uv.lock
 └── .gitignore
 ```
 
