@@ -1,10 +1,7 @@
 /// API configuration for the diabetes prediction app.
 class ApiConfig {
-  /// The base URL of the prediction API.
-  /// For Android emulator use: http://10.0.2.2:8000
-  /// For iOS simulator / desktop / web use: http://127.0.0.1:8000
-  /// Update this to your deployed backend URL when live.
-  static const String baseUrl = 'http://10.0.2.2:8000';
+  
+  static const String baseUrl = 'https://diabetes-glucose-api.onrender.com';
 
   /// The prediction endpoint path.
   static const String predictPath = '/predict';
