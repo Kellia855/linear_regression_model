@@ -1,17 +1,20 @@
-# regression_app
+# FlutterApp
 
-A new Flutter project.
+The Flutter project is in `regression_app/`.
 
-## Getting Started
+## Run it
 
-This project is a starting point for a Flutter application.
+```bash
+cd regression_app
+flutter pub get
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
+Pick a physical device or emulator (not Chrome/web).
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## API URL
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+In `regression_app/lib/constants.dart`, `ApiConfig.baseUrl` is already set
+to the deployed API: `https://diabetes-glucose-api.onrender.com`.
+
+Enter values in all 7 fields and tap **Predict**.
