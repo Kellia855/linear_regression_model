@@ -117,4 +117,4 @@ installs everything from `summative/pyproject.toml`/`uv.lock` into
 
 ## Video Demo
 
-`[https://youtu.be/eMnLxkuM2O8]`
+https://youtu.be/eMnLxkuM2O8
